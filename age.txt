@@ -1,0 +1,16 @@
+#include <stdio.h>
+int main()
+{
+  char name[100];
+  int age;
+  scanf("%s %d",name,&age);
+  if(age>18)
+  {
+    printf("you are eligible");
+  }
+  else
+  {
+    printf("you are notn eligible");
+  }
+  return 0;
+}
